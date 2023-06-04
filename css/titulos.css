@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+#titulos {
+	padding: 15px 0;
+	position: relative;
+	width: 100%;
+	z-index: 9;
+}
+.titulos {
+	color: #006600;
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-size: 2.8rem;
+	letter-spacing: -.01rem;
+	line-height: 0.8rem;
+	margin: 0 auto;
+	max-height: 109px;
+	max-width: 1112px;
+	padding: 0 2%;
+	position: relative;
+	text-align: left;
+	text-transform: uppercase;
+	width: 100%;
+	z-index: 9;
+}
+.titulos span,
+.titulos h1,
+.titulos h2,
+.titulos h3,
+.titulos h4,
+.titulos h5,
+.titulos h6 {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	vertical-align: middle;
+	z-index: 20;
+}
+.titulos h1 {
+	font-weight: 600;
+}
+.titulos h1,
+.titulos span {
+	font-size: 2.8rem;
+}
+.titulos h2 {
+	font-size: 2.6rem;
+}
+.titulos h3 {
+	font-size: 2.4rem;
+}
+.titulos h4 {
+	font-size: 2.2rem;
+}
+.titulos h5 {
+	font-size: 2rem;
+}
+.titulos h6 {
+	font-size: 1.8rem;
+}
+
+
+
+/* RELATIVO A VERSAO MOVEL */
+@media screen and (max-width: 767px) and (min-width: 176px) {
+#titulos {
+	left: 0;
+	letter-spacing: -.1rem;
+	margin-bottom: 0;
+	margin-top: 68px;
+	padding: 6px 2%;
+	padding-bottom: 7px;
+	padding-left: 23px;
+	position: relative;
+	top: 0;
+	width: 100%;
+}
+.titulos {
+	display: inline-block;
+}
+.titulos h1,
+.titulos span {
+	font-size: 2.2rem;
+}
+.titulos h2 {
+	font-size: 2rem;
+}
+.titulos h3 {
+	font-size: 1.8rem;
+}
+.titulos h4 {
+	font-size: 1.6rem;
+}
+.titulos h5 {
+	font-size: 1.2rem;
+}
+.titulos h6 {
+	font-size: 1rem;
+}
+}
+
+

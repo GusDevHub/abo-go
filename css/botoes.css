@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* botao simples */
+.bt {
+	border: solid 1px #2a4a96;
+	color: #2f2f2f;
+	display:inline-block;
+	margin: 4px;
+	padding: 4px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+.bt:hover,
+.bt:focus {
+	background: #2a4a96;
+	border: solid 1px #2a4a96;
+	color: #ffffff;
+	text-decoration: none;
+}
+/* botao tamanhos */
+.bt-gr {
+	width: 100%;
+}
+.bt-md {
+	width: 48%;
+}
+.bt-pq {
+	width: 38%;
+}
+.bt-spq {
+	width: 18%;
+}
+/* botao cantos arredondados */
+.bt-arredondado {
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+/* botao verde */
+.bt-verde {
+	border: solid 1px #006600;
+	color: #006600;
+}
+.bt-verde:hover,
+.bt-verde:focus {
+	background: #006600;
+	border: solid 1px #2a4a96;
+}
+/* botao cinza */
+.bt-cinza {
+	border: solid 1px #c9c9c9;
+	color: #c9c9c9;
+}
+.bt-cinza:hover,
+.bt-cinza:focus {
+	background: #c9c9c9;
+	border: solid 1px #c9c9c9;
+}
+/* botao vermelho */
+.bt-vermelho {
+	border: solid 1px #912c2e;
+	color: #912c2e;
+}
+.bt-vermelho:hover,
+.bt-vermelho:focus {
+	background: #912c2e;
+	border: solid 1px #912c2e;
+}
+/* botao amarelo */
+.bt-amarelo {
+	border: solid 1px #ffff00;
+	color: #ffff00;
+}
+.bt-amarelo:hover,
+.bt-amarelo:focus {
+	background: #ffff00;
+	border: solid 1px #ffff00;
+}
+/* botao ciano */
+.bt-ciano {
+	border: solid 1px #07a5e2;
+	color: #07a5e2;
+}
+.bt-ciano:hover,
+.bt-ciano:focus {
+	background: #07a5e2;
+	border: solid 1px #07a5e2;
+}
+
+
+
+/* RESPONSIVIDADE */
+@media screen and (max-width:767px) {
+.bt-spq {
+	min-width: 120px;
+}
+}

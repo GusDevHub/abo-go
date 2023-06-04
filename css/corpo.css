@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+.corpo {
+	display: block;
+	margin: 0 auto;
+	max-width: 1112px;
+	padding: 0 2%;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+.conteudos {
+	font-size: 1.8rem;
+	font-weight: 300;
+	letter-spacing: .05rem;
+	line-height: 2.7rem;
+	margin: 0 auto;
+	max-width: 1112px;
+	padding: 0;
+	padding-bottom: 15px;
+	position: relative;
+	width: 100%;
+	z-index: 9;
+	min-height: 125px;
+}
+.conteudos-nav {
+	margin: 0 auto;
+	margin-bottom: 22px;
+	max-width: 1170px;
+	padding: 0 2%;
+	position: relative;
+	text-align: right;
+	width: 100%;
+}
+.conteudos-nav a {
+	color: #2a52a1;
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 2.2rem;
+	max-width: 174px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+.conteudos-nav a:hover,
+.conteudos-nav a:focus {
+	text-decoration: none;
+}
+
+
+
+/* RELATIVO A VERSAO MOVEL */
+@media screen and (max-width: 767px) and (min-width: 176px) {
+.corpo {
+	margin-bottom: 15px;
+}
+.conteudos {
+	font-size: 1.45rem;
+	margin-top: 0;
+	min-height: 20px;
+	padding: 6px 2% 0px 2%;
+}
+}
+
+

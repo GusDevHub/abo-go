@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+
+#rodape {
+	background: #024bb4;
+	border-top: solid 1px #ededed;
+	color: #ffffff;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	max-width: 2000px;
+	padding: 0;
+	position: relative;
+	overflow: visible;
+	width: 100%;
+}
+.rodape {
+	margin: 0 auto;
+	max-width: 1112px;
+	padding: 28px 2%;
+	padding-bottom: 0;
+	width: 100%;
+}
+.contatos,
+.rodape-mapa-do-site,
+.rodape-redes-sociais {
+	display: inline-block;
+}
+.contatos {
+	max-width: 257px;
+	width: 100%;
+}
+/* logo */
+.rodape-logo {
+	background: url(../img/logo.svg) no-repeat left top;
+	display: block;
+	height: 69px;
+	margin-bottom: 7px;
+	padding-bottom: 17px;
+	padding-right: 16px;
+	width: 241px;
+}
+.rodape-telefone:hover,
+.rodape-telefone:focus,
+.rodape-email:hover,
+.rodape-email:focus,
+.rodape-endereco:hover,
+.rodape-endereco:focus {
+	color: #ffffff;
+	text-decoration: none;
+}
+/* telefone */
+.rodape-telefone {
+	border-top: solid 1px #1c5bb5;
+	color: #e6e6e6;
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.8rem;
+	font-weight: 400;
+	margin-bottom: 12px;
+	padding-top: 7px;
+}
+.rodape-telefone .fa-phone {
+	display: inline-block;
+	font-size: 2.6rem;
+	margin-right: 6px;
+	vertical-align: sub;
+}
+.rodape-telefone strong {
+	display: inline-block;
+	font-size: 2.6rem;
+	font-weight: 400;
+	vertical-align: baseline;
+}
+/* email */
+.rodape-email {
+	color: #e6e6e6;
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.8rem;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.rodape-email .fa-envelope {
+	display: inline-block;
+	font-size: 2rem;
+	margin-right: 6px;
+	vertical-align: middle;
+}
+/* endereco */
+.rodape-endereco {
+	color: #e6e6e6;
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.6rem;
+	font-weight: 400;
+}
+.rodape-endereco .fa-map-marker {
+	display: inline-block;
+	float: left;
+	font-size: 2rem;
+	margin-bottom: 25px;
+	margin-right: 6px;
+	vertical-align: middle;
+}
+/* mapa do site */
+.rodape-mapa-do-site {
+	border-left: solid 1px #5b88e1;
+	border-right: solid 1px #5b88e1;
+	margin: 0 4%;
+	max-width: 440px;
+	padding: 0 4%;
+	width: 100%;
+}
+.rodape-mapa-do-site span {
+	color: #ffffff;
+	display: block;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2.4rem;
+}
+.rodape-mapa-do-site ul {
+	display: block;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.6rem;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	padding-bottom: 12px;
+	position: relative;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: auto;
+	-webkit-margin-end: auto;
+	-webkit-padding-start: 0;
+	width: 100%;
+}
+.rodape-mapa-do-site ul li { /* item */
+	display: inline-block;
+	position: relative;
+}
+.rodape-mapa-do-site ul li a { /* link */
+	color: #ffffff;
+	display: block;
+	margin: 6px 8px;
+	padding: 2px;
+	position: relative;
+	text-decoration: none;
+}
+.rodape-mapa-do-site ul li a:hover,
+.rodape-mapa-do-site ul li a:focus {
+	color: #ffff00;
+}
+/* redes sociais */
+.rodape-redes-sociais {
+	max-width: 255px;
+	width: 100%;
+}
+.rodape-redes-sociais a {
+	color: #ffffff;
+	display: block;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2rem;
+	margin: 12px 0;
+}
+.rodape-redes-sociais a:hover,
+.rodape-redes-sociais a:focus {
+	text-decoration: none;
+}
+.rodape-redes-sociais a .fa {
+	font-size: 2.8rem;
+	margin-right: 12px;
+	vertical-align: middle;
+}
+.rodape-headers {
+	color: #ffff00;
+	display: block;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2.4rem;
+}
+.copyright-gosites {
+	bottom: -51px;
+	display: block;
+	margin: 0 auto;
+	max-width: 1112px;
+	padding: 15px 2%;
+	position: relative;
+	width: 100%;
+}
+.copyright {
+	color: #2a4a96;
+	display: block;
+	margin: 0 auto;
+	max-width: 320px;
+	position: relative;
+	width: 100%;
+}
+.gosites {
+	display: inline-block;
+	float: right;
+	margin-top: -22px;
+	max-width: 75px;
+	width: 100%;
+}
+
+@media screen and (max-width:1103px) {
+.contatos {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1103px;
+	padding: 0;
+}
+.rodape-telefone {
+	border: none;
+}
+.rodape-mapa-do-site {
+	border: none;
+	border-bottom: solid 1px #5b88e1;
+	border-top: solid 1px #5b88e1;
+	margin: 0;
+	max-width: 1103px;
+	padding: 2% 0;
+}
+.rodape-mapa-do-site span {
+	font-size: 1.8rem;
+}
+.rodape-redes-sociais {
+	display: block;
+	max-width: 1103px;
+	padding-top: 2%;
+	text-align: center;
+}
+.rodape-redes-sociais a {
+	border: solid 1px #5b88e1;
+	display: inline-block;
+	margin: 8px 12px;
+	padding: 1px 4px;
+}
+}
+@media screen and (max-width:940px) {
+.contatos {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	max-width: 257px;
+	padding: 0;
+	text-align: center;
+}
+.rodape-endereco {
+	margin: 0;
+	margin-left: 25px;
+	max-width: 210px;
+}
+}
+@media screen and (max-width:550px) {
+.copyright-gosites {
+	bottom: -71px;
+	padding-top: 25px;
+}
+.gosites {
+	display: block;
+	float: none;
+	margin: 0 auto;
+}
+}
+@media screen and (max-width:350px) {
+.copyright {
+	font-size: 1.2rem;
+	text-align: center;
+}
+}

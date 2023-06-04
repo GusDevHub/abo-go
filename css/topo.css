@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+
+ #topo {
+	background-image: -moz-linear-gradient( 0deg, rgb(31,55,119) 0%, rgb(40,71,145) 26%, rgb(19,33,83) 80%);
+	background-image: -webkit-linear-gradient( 0deg, rgb(31,55,119) 0%, rgb(40,71,145) 26%, rgb(19,33,83) 80%);
+	background-image: -ms-linear-gradient( 0deg, rgb(31,55,119) 0%, rgb(40,71,145) 26%, rgb(19,33,83) 80%);
+	max-width: 2000px;
+	min-height: 206px;
+	position: relative;
+	width: 100%;
+	z-index: 9;
+}
+.topo {
+	height: 159px;
+	margin: 0 auto;
+	max-height: 159px;
+	max-width: 1112px;
+	padding: 0 2%;
+	position: relative;
+	width: 100%;
+	z-index: 10;
+}
+/* barra topo */
+.links-busca-container {
+	background: #ffffff;
+	display: flex;
+	justify-content: space-around;
+	max-width: 570px;
+	padding: 0;
+	position: absolute;
+	right: 8%;
+	top: 0;
+	width: 100%;
+}
+.links-busca-container:before {
+	background: url(../img/links-lat-esq.svg) no-repeat left top;
+	background-size: contain;
+	content: '';
+	height: 42px;
+	display: block;
+	left: -59px;
+	position: absolute;
+	top: 0;
+	width: 83px;
+}
+.links-busca-container:after {
+	background: url(../img/links-lat-dir.svg) no-repeat left top;
+	background-size: contain;
+	content: '';
+	height: 42px;
+	display: block;
+	position: absolute;
+	right: -83px;
+	top: 0;
+	width: 83px;
+}
+
+.links-busca-container a {
+	color: #c7c7c7;
+}
+.links-busca-container a:hover,
+.links-busca-container a:focus {
+	color: #737373;
+	text-decoration: none;
+}
+.associe {
+	border-right: solid 1px #ececec;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.3rem;
+	padding: 11px 14px;
+	text-transform: uppercase;
+}
+.links-busca-container .fa-puzzle-piece {
+	display: inline-block;
+	font-size: 2rem;
+	margin-right: 4px;
+	vertical-align: sub;
+}
+.links-busca-container .fa-facebook-official,
+.links-busca-container .fa-twitter,
+.links-busca-container .fa-youtube,
+.links-busca-container .fa-instagram {
+	display: inline-block;
+	font-size: 2.5rem;
+	line-height: 4.2rem;
+	margin-right: 4px;
+	vertical-align: middle;
+}
+.busca-link {
+	border-left: solid 1px #ececec;
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.3rem;
+	max-width: 203px;
+	padding: 11px 14px;
+	width: 100%;
+}
+.links-busca-container .fa-search {
+	display: inline-block;
+	float: right;
+	font-size: 2rem;
+	vertical-align: middle;
+}
+/* logo */
+#logo {
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 45px;
+	max-width: 240px;
+	position: relative;
+	width: 100%;
+}
+.logo {
+	max-width: 240px;
+	position: relative;
+	width: 100%;
+	z-index: 3;
+}
+/* responsividade */
+@media screen and (max-width:1050px) {
+.links-busca-container {
+	max-width: 500px;
+	right: 90px;
+}
+}
+@media screen and (max-width:930px) {
+#logo {
+margin-top: 63px;
+}
+}
+/* RELATIVO A VERSAO MOVEL */
+@media screen and (max-width: 767px) and (min-width: 176px) {
+#topo,.topo{display: none !important;visibility: hidden !important;}
+.mobile-topo {
+	background-image: -moz-linear-gradient( 0deg, rgb(31,55,119) 0%, rgb(40,71,145) 26%, rgb(19,33,83) 80%);
+	background-image: -webkit-linear-gradient( 0deg, rgb(31,55,119) 0%, rgb(40,71,145) 26%, rgb(19,33,83) 80%);
+	background-image: -ms-linear-gradient( 0deg, rgb(31,55,119) 0%, rgb(40,71,145) 26%, rgb(19,33,83) 80%);
+	box-shadow: rgba(221, 221, 221, 0.329412) 0px 1px 5px 0px;
+	left: 0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 50;
+}
+#logo-mobile {
+	float: left;
+	height: 46px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	margin-top: 10px;
+	max-width: 145px;
+	position: relative;
+	text-align: left;
+	width: 100%;
+	z-index: 51;
+}
+.logo-mobile {
+	max-width: 145px;
+	position: relative;
+	width: 100%;
+	z-index: 52;
+}
+/* links topo */
+.links-busca {
+	display: block;
+	max-width: 240px;
+	padding: 0;
+	position: absolute;
+	right: 57px;
+	text-align: right;
+	top: 20px;
+	width: 100%;
+}
+.links-busca a {
+	color: #ffffff;
+}
+.links-busca a:hover,
+.links-busca a:focus {
+	color: #ECECEC;
+	text-decoration: none;
+}
+.associe {
+	border-right: none;
+	padding: 0;
+}
+.links-busca .fa-puzzle-piece {
+	font-size: 2.5rem;
+	margin-right: 12px;
+	vertical-align: auto;
+}
+.busca-link {
+	border-left: none;
+	display: inline-block;
+	max-width: 18px;
+	padding: 0;
+	width: 100%;
+}
+.links-busca .fa-search {
+	font-size: 2.5rem;
+	vertical-align: auto;
+}
+}
